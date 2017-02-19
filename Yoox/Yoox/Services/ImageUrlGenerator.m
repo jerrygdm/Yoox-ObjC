@@ -25,6 +25,14 @@
     return self;
 }
 
+- (NSString *)generateUrlFromString:(NSString *)code type:(ImageSizeType)type
+{
+        return @"";    
+}
 
+- (NSString *)generateUrlFromString:(NSString *)code
+{
+    return [self generateUrlFromString:code type:ImageSizeTypeThumb];
+}
 
 @end
