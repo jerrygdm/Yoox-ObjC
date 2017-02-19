@@ -7,16 +7,23 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "ImageUrlGenerator.h"
+
+#define kBaseImageUrlString @"http://cdn.yoox.biz/"
 
 @interface YooxTests : XCTestCase
+
+@property (nonatomic, strong) ImageUrlGenerator *urlGenerator;
 
 @end
 
 @implementation YooxTests
 
-- (void)setUp {
+- (void)setUp
+{
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    self.urlGenerator = [[ImageUrlGenerator alloc] initWithBaseUrl:kBaseImageUrlString];
 }
 
 - (void)tearDown {
@@ -24,9 +31,11 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testUrlGenerator
+{
+    NSString *result = [self.urlGenerator generateUrlFromString:@"39432350JM"];
+    
+    XCTAssertTrue([result isEqualToString:@"http://cdn.yoox.biz/39/39432350JM_11_f.jpg"]);
 }
 
 - (void)testPerformanceExample {
