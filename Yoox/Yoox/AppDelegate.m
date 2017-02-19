@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  Yoox
 //
-//  Created by Gianmaria Dal Maistro on 19/02/17.
+//  Created by Gianmaria Dal Maistro on 17/02/17.
 //  Copyright © 2017 it.whiteworld.yoox. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "YooxStoryboard.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +16,14 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    UIStoryboard *sb = [YooxStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *ctrl = sb.instantiateInitialViewController;
+    
+    self.window.rootViewController = ctrl;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

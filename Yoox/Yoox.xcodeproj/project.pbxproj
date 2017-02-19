@@ -10,13 +10,11 @@
 		32364DB7E14CD836E71BE7A7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FBE2C57C3ECA998719FA2B /* Pods.framework */; };
 		C440C9A91E5A19DA005A9836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9A81E5A19DA005A9836 /* main.m */; };
 		C440C9AC1E5A19DA005A9836 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9AB1E5A19DA005A9836 /* AppDelegate.m */; };
-		C440C9AF1E5A19DA005A9836 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9AE1E5A19DA005A9836 /* ProductListViewController.m */; };
 		C440C9B21E5A19DA005A9836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C440C9B01E5A19DA005A9836 /* Main.storyboard */; };
 		C440C9B41E5A19DA005A9836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C440C9B31E5A19DA005A9836 /* Assets.xcassets */; };
 		C440C9B71E5A19DA005A9836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C440C9B51E5A19DA005A9836 /* LaunchScreen.storyboard */; };
 		C440C9C21E5A19DA005A9836 /* YooxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9C11E5A19DA005A9836 /* YooxTests.m */; };
 		C440C9CD1E5A19DA005A9836 /* YooxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9CC1E5A19DA005A9836 /* YooxUITests.m */; };
-		C440C9DC1E5A1B58005A9836 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9DB1E5A1B58005A9836 /* ProductDetailViewController.m */; };
 		C440C9E21E5A327A005A9836 /* ImageUrlGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9E11E5A327A005A9836 /* ImageUrlGenerator.m */; };
 		C440C9EA1E5A35E4005A9836 /* NetworkServiceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9E91E5A35E4005A9836 /* NetworkServiceLayer.m */; };
 		C440C9F81E5A3658005A9836 /* AFNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9EF1E5A3658005A9836 /* AFNetworkManager.m */; };
@@ -28,6 +26,12 @@
 		C440CA031E5A36E3005A9836 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA021E5A36E3005A9836 /* Product.m */; };
 		C440CA091E5A36EB005A9836 /* BaseResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA061E5A36EB005A9836 /* BaseResponseParser.m */; };
 		C440CA0A1E5A36EB005A9836 /* ProductParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA081E5A36EB005A9836 /* ProductParser.m */; };
+		C440CA181E5A3899005A9836 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA131E5A3899005A9836 /* ProductDetailViewController.m */; };
+		C440CA191E5A3899005A9836 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA151E5A3899005A9836 /* ProductListViewController.m */; };
+		C440CA1F1E5A3A44005A9836 /* ProductListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA1E1E5A3A44005A9836 /* ProductListCollectionViewCell.m */; };
+		C440CA251E5A3A59005A9836 /* ProductListCollectionViewCell+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA221E5A3A59005A9836 /* ProductListCollectionViewCell+Configure.m */; };
+		C440CA261E5A3A59005A9836 /* UIScrollView+InfiniteScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA241E5A3A59005A9836 /* UIScrollView+InfiniteScroll.m */; };
+		C440CA2A1E5A3C20005A9836 /* YooxStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA291E5A3C20005A9836 /* YooxStoryboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +59,6 @@
 		C440C9A81E5A19DA005A9836 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C440C9AA1E5A19DA005A9836 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C440C9AB1E5A19DA005A9836 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C440C9AD1E5A19DA005A9836 /* ProductListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
-		C440C9AE1E5A19DA005A9836 /* ProductListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
 		C440C9B11E5A19DA005A9836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C440C9B31E5A19DA005A9836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C440C9B61E5A19DA005A9836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,8 +69,6 @@
 		C440C9C81E5A19DA005A9836 /* YooxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YooxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C440C9CC1E5A19DA005A9836 /* YooxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YooxUITests.m; sourceTree = "<group>"; };
 		C440C9CE1E5A19DA005A9836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C440C9DA1E5A1B58005A9836 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
-		C440C9DB1E5A1B58005A9836 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
 		C440C9DE1E5A321B005A9836 /* UrlGeneratorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlGeneratorProtocol.h; sourceTree = "<group>"; };
 		C440C9E01E5A327A005A9836 /* ImageUrlGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUrlGenerator.h; sourceTree = "<group>"; };
 		C440C9E11E5A327A005A9836 /* ImageUrlGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUrlGenerator.m; sourceTree = "<group>"; };
@@ -100,6 +100,19 @@
 		C440CA071E5A36EB005A9836 /* ProductParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductParser.h; sourceTree = "<group>"; };
 		C440CA081E5A36EB005A9836 /* ProductParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductParser.m; sourceTree = "<group>"; };
 		C440CA0B1E5A370E005A9836 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C440CA121E5A3899005A9836 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		C440CA131E5A3899005A9836 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		C440CA141E5A3899005A9836 /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
+		C440CA151E5A3899005A9836 /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
+		C440CA1D1E5A3A44005A9836 /* ProductListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListCollectionViewCell.h; sourceTree = "<group>"; };
+		C440CA1E1E5A3A44005A9836 /* ProductListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListCollectionViewCell.m; sourceTree = "<group>"; };
+		C440CA211E5A3A59005A9836 /* ProductListCollectionViewCell+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ProductListCollectionViewCell+Configure.h"; sourceTree = "<group>"; };
+		C440CA221E5A3A59005A9836 /* ProductListCollectionViewCell+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ProductListCollectionViewCell+Configure.m"; sourceTree = "<group>"; };
+		C440CA231E5A3A59005A9836 /* UIScrollView+InfiniteScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+InfiniteScroll.h"; sourceTree = "<group>"; };
+		C440CA241E5A3A59005A9836 /* UIScrollView+InfiniteScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+InfiniteScroll.m"; sourceTree = "<group>"; };
+		C440CA271E5A3AEA005A9836 /* DetailSettableProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailSettableProtocol.h; sourceTree = "<group>"; };
+		C440CA281E5A3C20005A9836 /* YooxStoryboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YooxStoryboard.h; sourceTree = "<group>"; };
+		C440CA291E5A3C20005A9836 /* YooxStoryboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YooxStoryboard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,16 +175,15 @@
 		C440C9A61E5A19DA005A9836 /* Yoox */ = {
 			isa = PBXGroup;
 			children = (
+				C440CA201E5A3A59005A9836 /* Categories */,
 				C440C9ED1E5A3658005A9836 /* Networking */,
 				C440C9EB1E5A3604005A9836 /* Models */,
 				C440C9DF1E5A325F005A9836 /* Services */,
+				C440CA1C1E5A3A44005A9836 /* Views */,
 				C440C9DD1E5A3170005A9836 /* Protocols */,
+				C440CA0C1E5A3899005A9836 /* ViewControllers */,
 				C440C9AA1E5A19DA005A9836 /* AppDelegate.h */,
 				C440C9AB1E5A19DA005A9836 /* AppDelegate.m */,
-				C440C9AD1E5A19DA005A9836 /* ProductListViewController.h */,
-				C440C9AE1E5A19DA005A9836 /* ProductListViewController.m */,
-				C440C9DA1E5A1B58005A9836 /* ProductDetailViewController.h */,
-				C440C9DB1E5A1B58005A9836 /* ProductDetailViewController.m */,
 				C440C9B01E5A19DA005A9836 /* Main.storyboard */,
 				C440C9B31E5A19DA005A9836 /* Assets.xcassets */,
 				C440C9B51E5A19DA005A9836 /* LaunchScreen.storyboard */,
@@ -211,6 +223,7 @@
 		C440C9DD1E5A3170005A9836 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				C440CA271E5A3AEA005A9836 /* DetailSettableProtocol.h */,
 				C440C9E31E5A35A4005A9836 /* ContentProviderProtocol.h */,
 				C440C9E41E5A35A4005A9836 /* DataProviderProtocol.h */,
 				C440C9E51E5A35A4005A9836 /* NetworkServiceDependencyProtocol.h */,
@@ -225,6 +238,8 @@
 		C440C9DF1E5A325F005A9836 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				C440CA281E5A3C20005A9836 /* YooxStoryboard.h */,
+				C440CA291E5A3C20005A9836 /* YooxStoryboard.m */,
 				C440C9E81E5A35E4005A9836 /* NetworkServiceLayer.h */,
 				C440C9E91E5A35E4005A9836 /* NetworkServiceLayer.m */,
 				C440C9E01E5A327A005A9836 /* ImageUrlGenerator.h */,
@@ -272,6 +287,38 @@
 				C440CA081E5A36EB005A9836 /* ProductParser.m */,
 			);
 			path = Parser;
+			sourceTree = "<group>";
+		};
+		C440CA0C1E5A3899005A9836 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C440CA121E5A3899005A9836 /* ProductDetailViewController.h */,
+				C440CA131E5A3899005A9836 /* ProductDetailViewController.m */,
+				C440CA141E5A3899005A9836 /* ProductListViewController.h */,
+				C440CA151E5A3899005A9836 /* ProductListViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C440CA1C1E5A3A44005A9836 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C440CA1D1E5A3A44005A9836 /* ProductListCollectionViewCell.h */,
+				C440CA1E1E5A3A44005A9836 /* ProductListCollectionViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C440CA201E5A3A59005A9836 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C440CA211E5A3A59005A9836 /* ProductListCollectionViewCell+Configure.h */,
+				C440CA221E5A3A59005A9836 /* ProductListCollectionViewCell+Configure.m */,
+				C440CA231E5A3A59005A9836 /* UIScrollView+InfiniteScroll.h */,
+				C440CA241E5A3A59005A9836 /* UIScrollView+InfiniteScroll.m */,
+			);
+			name = Categories;
+			path = Category;
 			sourceTree = "<group>";
 		};
 		F66663D85BB8B407FF98658A /* Frameworks */ = {
@@ -469,21 +516,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C440C9AF1E5A19DA005A9836 /* ProductListViewController.m in Sources */,
 				C440CA031E5A36E3005A9836 /* Product.m in Sources */,
 				C440C9AC1E5A19DA005A9836 /* AppDelegate.m in Sources */,
+				C440CA191E5A3899005A9836 /* ProductListViewController.m in Sources */,
+				C440CA181E5A3899005A9836 /* ProductDetailViewController.m in Sources */,
+				C440CA251E5A3A59005A9836 /* ProductListCollectionViewCell+Configure.m in Sources */,
 				C440C9EA1E5A35E4005A9836 /* NetworkServiceLayer.m in Sources */,
+				C440CA1F1E5A3A44005A9836 /* ProductListCollectionViewCell.m in Sources */,
 				C440C9A91E5A19DA005A9836 /* main.m in Sources */,
 				C440CA0A1E5A36EB005A9836 /* ProductParser.m in Sources */,
+				C440CA261E5A3A59005A9836 /* UIScrollView+InfiniteScroll.m in Sources */,
 				C440CA001E5A36AA005A9836 /* Exceptional.m in Sources */,
 				C440C9F81E5A3658005A9836 /* AFNetworkManager.m in Sources */,
-				C440C9DC1E5A1B58005A9836 /* ProductDetailViewController.m in Sources */,
 				C440CA091E5A36EB005A9836 /* BaseResponseParser.m in Sources */,
 				C440C9E21E5A327A005A9836 /* ImageUrlGenerator.m in Sources */,
 				C440C9FA1E5A3658005A9836 /* ContentProviderSelector.m in Sources */,
 				C440C9FB1E5A3658005A9836 /* DataRetriever.m in Sources */,
 				C440C9FC1E5A3658005A9836 /* Server.m in Sources */,
 				C440C9F91E5A3658005A9836 /* AFNetworkOldSupportManager.m in Sources */,
+				C440CA2A1E5A3C20005A9836 /* YooxStoryboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
