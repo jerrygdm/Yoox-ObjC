@@ -26,8 +26,6 @@
 		C440CA031E5A36E3005A9836 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA021E5A36E3005A9836 /* Product.m */; };
 		C440CA091E5A36EB005A9836 /* BaseResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA061E5A36EB005A9836 /* BaseResponseParser.m */; };
 		C440CA0A1E5A36EB005A9836 /* ProductParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA081E5A36EB005A9836 /* ProductParser.m */; };
-		C440CA161E5A3899005A9836 /* CollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA0F1E5A3899005A9836 /* CollectionViewDataSource.m */; };
-		C440CA171E5A3899005A9836 /* CollectionViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA111E5A3899005A9836 /* CollectionViewDelegate.m */; };
 		C440CA181E5A3899005A9836 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA131E5A3899005A9836 /* ProductDetailViewController.m */; };
 		C440CA191E5A3899005A9836 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA151E5A3899005A9836 /* ProductListViewController.m */; };
 		C440CA1F1E5A3A44005A9836 /* ProductListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C440CA1E1E5A3A44005A9836 /* ProductListCollectionViewCell.m */; };
@@ -102,16 +100,10 @@
 		C440CA071E5A36EB005A9836 /* ProductParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductParser.h; sourceTree = "<group>"; };
 		C440CA081E5A36EB005A9836 /* ProductParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductParser.m; sourceTree = "<group>"; };
 		C440CA0B1E5A370E005A9836 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		C440CA0E1E5A3899005A9836 /* CollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewDataSource.h; sourceTree = "<group>"; };
-		C440CA0F1E5A3899005A9836 /* CollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewDataSource.m; sourceTree = "<group>"; };
-		C440CA101E5A3899005A9836 /* CollectionViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewDelegate.h; sourceTree = "<group>"; };
-		C440CA111E5A3899005A9836 /* CollectionViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewDelegate.m; sourceTree = "<group>"; };
 		C440CA121E5A3899005A9836 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
 		C440CA131E5A3899005A9836 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
 		C440CA141E5A3899005A9836 /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListViewController.h; sourceTree = "<group>"; };
 		C440CA151E5A3899005A9836 /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListViewController.m; sourceTree = "<group>"; };
-		C440CA1A1E5A39F3005A9836 /* CVDataSourceDependencyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVDataSourceDependencyProtocol.h; sourceTree = "<group>"; };
-		C440CA1B1E5A39F3005A9836 /* CVDelegateDependencyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVDelegateDependencyProtocol.h; sourceTree = "<group>"; };
 		C440CA1D1E5A3A44005A9836 /* ProductListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductListCollectionViewCell.h; sourceTree = "<group>"; };
 		C440CA1E1E5A3A44005A9836 /* ProductListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductListCollectionViewCell.m; sourceTree = "<group>"; };
 		C440CA211E5A3A59005A9836 /* ProductListCollectionViewCell+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ProductListCollectionViewCell+Configure.h"; sourceTree = "<group>"; };
@@ -232,8 +224,6 @@
 			isa = PBXGroup;
 			children = (
 				C440CA271E5A3AEA005A9836 /* DetailSettableProtocol.h */,
-				C440CA1A1E5A39F3005A9836 /* CVDataSourceDependencyProtocol.h */,
-				C440CA1B1E5A39F3005A9836 /* CVDelegateDependencyProtocol.h */,
 				C440C9E31E5A35A4005A9836 /* ContentProviderProtocol.h */,
 				C440C9E41E5A35A4005A9836 /* DataProviderProtocol.h */,
 				C440C9E51E5A35A4005A9836 /* NetworkServiceDependencyProtocol.h */,
@@ -302,24 +292,12 @@
 		C440CA0C1E5A3899005A9836 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				C440CA0D1E5A3899005A9836 /* Datasource-Delegate */,
 				C440CA121E5A3899005A9836 /* ProductDetailViewController.h */,
 				C440CA131E5A3899005A9836 /* ProductDetailViewController.m */,
 				C440CA141E5A3899005A9836 /* ProductListViewController.h */,
 				C440CA151E5A3899005A9836 /* ProductListViewController.m */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		C440CA0D1E5A3899005A9836 /* Datasource-Delegate */ = {
-			isa = PBXGroup;
-			children = (
-				C440CA0E1E5A3899005A9836 /* CollectionViewDataSource.h */,
-				C440CA0F1E5A3899005A9836 /* CollectionViewDataSource.m */,
-				C440CA101E5A3899005A9836 /* CollectionViewDelegate.h */,
-				C440CA111E5A3899005A9836 /* CollectionViewDelegate.m */,
-			);
-			path = "Datasource-Delegate";
 			sourceTree = "<group>";
 		};
 		C440CA1C1E5A3A44005A9836 /* Views */ = {
@@ -549,8 +527,6 @@
 				C440CA0A1E5A36EB005A9836 /* ProductParser.m in Sources */,
 				C440CA261E5A3A59005A9836 /* UIScrollView+InfiniteScroll.m in Sources */,
 				C440CA001E5A36AA005A9836 /* Exceptional.m in Sources */,
-				C440CA171E5A3899005A9836 /* CollectionViewDelegate.m in Sources */,
-				C440CA161E5A3899005A9836 /* CollectionViewDataSource.m in Sources */,
 				C440C9F81E5A3658005A9836 /* AFNetworkManager.m in Sources */,
 				C440CA091E5A36EB005A9836 /* BaseResponseParser.m in Sources */,
 				C440C9E21E5A327A005A9836 /* ImageUrlGenerator.m in Sources */,
