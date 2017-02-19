@@ -39,10 +39,7 @@
     [self.activityIndicator startAnimating];
     
     self.items = [NSMutableArray array];
-    
-//    self.collectionView.dataSource = self.cvDataSource;
-//    self.collectionView.delegate = self.cvDelegate;
-    
+        
     @weakify(self)
     [self.collectionView addInfiniteScrollWithHandler:^(UICollectionView *collectionView) {
         @strongify(self)

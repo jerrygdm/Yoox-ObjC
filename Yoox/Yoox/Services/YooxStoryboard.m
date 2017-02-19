@@ -11,12 +11,6 @@
 #import "NetworkServiceDependencyProtocol.h"
 #import "NetworkServiceLayer.h"
 
-#import "CVDelegateDependencyProtocol.h"
-#import "CVDataSourceDependencyProtocol.h"
-
-#import "CollectionViewDelegate.h"
-#import "CollectionViewDataSource.h"
-
 @interface YooxStoryboard ()
 
 @property (nonatomic, readwrite) NSObject <NetworkServiceProtocol> *networkService;
@@ -55,12 +49,6 @@
 {
     if ([controller conformsToProtocol:@protocol(NetworkServiceDependencyProtocol)])
         [controller setNetworkService:self.networkService];
-    
-    if ([controller conformsToProtocol:@protocol(CVDelegateDependencyProtocol)])
-        [controller setCvDelegate:[CollectionViewDelegate new]];
-
-    if ([controller conformsToProtocol:@protocol(CVDataSourceDependencyProtocol)])
-        [controller setCvDataSource:[CollectionViewDataSource new]];
 }
 
 @end
