@@ -27,7 +27,26 @@
 
 - (NSString *)generateUrlFromString:(NSString *)code type:(ImageSizeType)type
 {
-        return @"";    
+    if (!self.baseUrlString)
+        return @"";
+    
+    NSString *prefixCode = [code substringToIndex:2];
+    
+    NSString *suffix = @"";
+    switch (type) {
+        case ImageSizeTypeThumb:
+            suffix = @"_11_f.jpg";
+            break;
+            
+        case ImageSizeTypeHires:
+            suffix = @"_14_f.jpg";
+            break;
+            
+        default:
+            break;
+    }
+
+    return [self.baseUrlString stringByAppendingFormat:@"%@/%@%@", prefixCode, code, suffix];
 }
 
 - (NSString *)generateUrlFromString:(NSString *)code

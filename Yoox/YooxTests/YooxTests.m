@@ -9,6 +9,8 @@
 #import <XCTest/XCTest.h>
 #import "ImageUrlGenerator.h"
 
+#define kBaseImageUrlString @"http://cdn.yoox.biz/"
+
 @interface YooxTests : XCTestCase
 
 @property (nonatomic, strong) ImageUrlGenerator *urlGenerator;
@@ -17,11 +19,11 @@
 
 @implementation YooxTests
 
-- (void)setUp {
+- (void)setUp
+{
     [super setUp];
     
-    self.urlGenerator = [[ImageUrlGenerator alloc] initWithBaseUrl:@""];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    self.urlGenerator = [[ImageUrlGenerator alloc] initWithBaseUrl:kBaseImageUrlString];
 }
 
 - (void)tearDown {
@@ -31,8 +33,9 @@
 
 - (void)testUrlGenerator
 {
-    NSString *urlString = [self.urlGenerator generateUrlFromString:@"39" type:ImageSizeTypeThumb];
-    XCTAssertTrue([urlString isEqualToString:@""]);
+    NSString *result = [self.urlGenerator generateUrlFromString:@"39432350JM"];
+    
+    XCTAssertTrue([result isEqualToString:@"http://cdn.yoox.biz/39/39432350JM_11_f.jpg"]);
 }
 
 - (void)testPerformanceExample {
