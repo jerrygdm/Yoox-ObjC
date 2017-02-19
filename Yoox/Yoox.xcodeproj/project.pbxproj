@@ -18,6 +18,13 @@
 		C440C9CD1E5A19DA005A9836 /* YooxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9CC1E5A19DA005A9836 /* YooxUITests.m */; };
 		C440C9DC1E5A1B58005A9836 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9DB1E5A1B58005A9836 /* ProductDetailViewController.m */; };
 		C440C9E21E5A327A005A9836 /* ImageUrlGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9E11E5A327A005A9836 /* ImageUrlGenerator.m */; };
+		C440C9EA1E5A35E4005A9836 /* NetworkServiceLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9E91E5A35E4005A9836 /* NetworkServiceLayer.m */; };
+		C440C9F81E5A3658005A9836 /* AFNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9EF1E5A3658005A9836 /* AFNetworkManager.m */; };
+		C440C9F91E5A3658005A9836 /* AFNetworkOldSupportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9F11E5A3658005A9836 /* AFNetworkOldSupportManager.m */; };
+		C440C9FA1E5A3658005A9836 /* ContentProviderSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9F31E5A3658005A9836 /* ContentProviderSelector.m */; };
+		C440C9FB1E5A3658005A9836 /* DataRetriever.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9F51E5A3658005A9836 /* DataRetriever.m */; };
+		C440C9FC1E5A3658005A9836 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9F71E5A3658005A9836 /* Server.m */; };
+		C440CA001E5A36AA005A9836 /* Exceptional.m in Sources */ = {isa = PBXBuildFile; fileRef = C440C9FF1E5A36AA005A9836 /* Exceptional.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +74,22 @@
 		C440C9E51E5A35A4005A9836 /* NetworkServiceDependencyProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkServiceDependencyProtocol.h; sourceTree = "<group>"; };
 		C440C9E61E5A35A4005A9836 /* NetworkServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkServiceProtocol.h; sourceTree = "<group>"; };
 		C440C9E71E5A35A4005A9836 /* ParserProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParserProtocol.h; sourceTree = "<group>"; };
+		C440C9E81E5A35E4005A9836 /* NetworkServiceLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkServiceLayer.h; sourceTree = "<group>"; };
+		C440C9E91E5A35E4005A9836 /* NetworkServiceLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkServiceLayer.m; sourceTree = "<group>"; };
+		C440C9EC1E5A3638005A9836 /* Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blocks.h; sourceTree = "<group>"; };
+		C440C9EE1E5A3658005A9836 /* AFNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkManager.h; sourceTree = "<group>"; };
+		C440C9EF1E5A3658005A9836 /* AFNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkManager.m; sourceTree = "<group>"; };
+		C440C9F01E5A3658005A9836 /* AFNetworkOldSupportManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkOldSupportManager.h; sourceTree = "<group>"; };
+		C440C9F11E5A3658005A9836 /* AFNetworkOldSupportManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkOldSupportManager.m; sourceTree = "<group>"; };
+		C440C9F21E5A3658005A9836 /* ContentProviderSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentProviderSelector.h; sourceTree = "<group>"; };
+		C440C9F31E5A3658005A9836 /* ContentProviderSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentProviderSelector.m; sourceTree = "<group>"; };
+		C440C9F41E5A3658005A9836 /* DataRetriever.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataRetriever.h; sourceTree = "<group>"; };
+		C440C9F51E5A3658005A9836 /* DataRetriever.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataRetriever.m; sourceTree = "<group>"; };
+		C440C9F61E5A3658005A9836 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		C440C9F71E5A3658005A9836 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		C440C9FD1E5A368A005A9836 /* RetrievableProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetrievableProtocol.h; sourceTree = "<group>"; };
+		C440C9FE1E5A36AA005A9836 /* Exceptional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exceptional.h; sourceTree = "<group>"; };
+		C440C9FF1E5A36AA005A9836 /* Exceptional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exceptional.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +152,8 @@
 		C440C9A61E5A19DA005A9836 /* Yoox */ = {
 			isa = PBXGroup;
 			children = (
+				C440C9ED1E5A3658005A9836 /* Networking */,
+				C440C9EB1E5A3604005A9836 /* Models */,
 				C440C9DF1E5A325F005A9836 /* Services */,
 				C440C9DD1E5A3170005A9836 /* Protocols */,
 				C440C9AA1E5A19DA005A9836 /* AppDelegate.h */,
@@ -181,6 +206,7 @@
 				C440C9E61E5A35A4005A9836 /* NetworkServiceProtocol.h */,
 				C440C9E71E5A35A4005A9836 /* ParserProtocol.h */,
 				C440C9DE1E5A321B005A9836 /* UrlGeneratorProtocol.h */,
+				C440C9FD1E5A368A005A9836 /* RetrievableProtocol.h */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -188,10 +214,39 @@
 		C440C9DF1E5A325F005A9836 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				C440C9E81E5A35E4005A9836 /* NetworkServiceLayer.h */,
+				C440C9E91E5A35E4005A9836 /* NetworkServiceLayer.m */,
 				C440C9E01E5A327A005A9836 /* ImageUrlGenerator.h */,
 				C440C9E11E5A327A005A9836 /* ImageUrlGenerator.m */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		C440C9EB1E5A3604005A9836 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C440C9EC1E5A3638005A9836 /* Blocks.h */,
+				C440C9FE1E5A36AA005A9836 /* Exceptional.h */,
+				C440C9FF1E5A36AA005A9836 /* Exceptional.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C440C9ED1E5A3658005A9836 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C440C9EE1E5A3658005A9836 /* AFNetworkManager.h */,
+				C440C9EF1E5A3658005A9836 /* AFNetworkManager.m */,
+				C440C9F01E5A3658005A9836 /* AFNetworkOldSupportManager.h */,
+				C440C9F11E5A3658005A9836 /* AFNetworkOldSupportManager.m */,
+				C440C9F21E5A3658005A9836 /* ContentProviderSelector.h */,
+				C440C9F31E5A3658005A9836 /* ContentProviderSelector.m */,
+				C440C9F41E5A3658005A9836 /* DataRetriever.h */,
+				C440C9F51E5A3658005A9836 /* DataRetriever.m */,
+				C440C9F61E5A3658005A9836 /* Server.h */,
+				C440C9F71E5A3658005A9836 /* Server.m */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		F66663D85BB8B407FF98658A /* Frameworks */ = {
@@ -391,9 +446,16 @@
 			files = (
 				C440C9AF1E5A19DA005A9836 /* ProductListViewController.m in Sources */,
 				C440C9AC1E5A19DA005A9836 /* AppDelegate.m in Sources */,
+				C440C9EA1E5A35E4005A9836 /* NetworkServiceLayer.m in Sources */,
 				C440C9A91E5A19DA005A9836 /* main.m in Sources */,
+				C440CA001E5A36AA005A9836 /* Exceptional.m in Sources */,
+				C440C9F81E5A3658005A9836 /* AFNetworkManager.m in Sources */,
 				C440C9DC1E5A1B58005A9836 /* ProductDetailViewController.m in Sources */,
 				C440C9E21E5A327A005A9836 /* ImageUrlGenerator.m in Sources */,
+				C440C9FA1E5A3658005A9836 /* ContentProviderSelector.m in Sources */,
+				C440C9FB1E5A3658005A9836 /* DataRetriever.m in Sources */,
+				C440C9FC1E5A3658005A9836 /* Server.m in Sources */,
+				C440C9F91E5A3658005A9836 /* AFNetworkOldSupportManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
