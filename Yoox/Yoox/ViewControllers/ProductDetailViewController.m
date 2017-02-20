@@ -27,7 +27,7 @@
     if ([self.detail isKindOfClass:[NSString class]])
     {
         self.detailImage = [[UIImageView alloc] initWithFrame:self.scrollView.bounds];
-        self.detailImage.contentMode = UIViewContentModeScaleAspectFill;
+        self.detailImage.contentMode = UIViewContentModeScaleAspectFit;
         [self.scrollView addSubview:self.detailImage];
 
         [self.activityIndicator startAnimating];
