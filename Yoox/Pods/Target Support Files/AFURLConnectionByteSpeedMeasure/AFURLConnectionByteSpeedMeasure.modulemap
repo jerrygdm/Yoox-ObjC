@@ -1,0 +1,6 @@
+framework module AFURLConnectionByteSpeedMeasure {
+  umbrella header "AFURLConnectionByteSpeedMeasure-umbrella.h"
+
+  export *
+  module * { export * }
+}
